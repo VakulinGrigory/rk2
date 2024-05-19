@@ -1,3 +1,6 @@
+#include <gtest/gtest.h>
+#include "virtual_machine.cpp"
+
 TEST(VirtualMachineTest, InitialState) {
     VirtualMachine vm;
     EXPECT_EQ(vm.GetCpuCount(), 1);

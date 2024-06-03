@@ -1,4 +1,4 @@
-#include "VirtualMachine.h"
+#include "virtual_machine.h"
 
 std::uint16_t VirtualMachine::GetCpuCount() const
 {

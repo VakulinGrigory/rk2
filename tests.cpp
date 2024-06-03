@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "main.cpp"
+#include "virtual_machine.cpp"
 
 TEST(VirtualMachineTest, InitialState) {
     VirtualMachine vm;

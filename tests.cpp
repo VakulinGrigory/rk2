@@ -4,7 +4,7 @@
 TEST(VirtualMachineTest, InitialState) {
     VirtualMachine vm;
     EXPECT_EQ(vm.GetCpuCount(), 1);
-    EXPECT_EQ(vm.GetRamSize(), 300);
+    EXPECT_EQ(vm.GetRamSize(), 500);
 }
 
 TEST(VirtualMachineTest, ChangeCpuCount) {

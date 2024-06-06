@@ -28,7 +28,7 @@ jobs:
         cd build
         ./tests
 
-    # Загрузка артифактов сборки
+    # Загрузка артефактов сборки
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
